@@ -9,7 +9,7 @@
 
 ### 브라우저
 - [브라우저의 렌더링 원리](https://github.com/IT-Cotato/10th-Frontend-Interview-Study/blob/develop/MinJaeSon/Browser/browser-rendering.md)
-- Reflow와 Repaint
+- [Reflow와 Repaint](https://github.com/IT-Cotato/10th-Frontend-Interview-Study/blob/develop/MinJaeSon/Browser/reflow-repaint.md)
 - CSR과 SSR
 - 브라우저 저장소의 차이점 (Local Storage, Session Storage, Cookie)
   
