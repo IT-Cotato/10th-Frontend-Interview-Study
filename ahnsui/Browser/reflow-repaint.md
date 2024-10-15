@@ -83,7 +83,7 @@
 
 - 불필요한 노드는 **display: none**으로 변경한다.
 
-  visibility: invisible은 Layout 공간을 차지하기 때문에 Reflow의 대상이 된다.
+  visibility: hidden은 Layout 공간을 차지하기 때문에 Reflow의 대상이 된다.
 
   하지만 display: none은 Layout 공간을 차지하지 않아 Render Tree에서 아예 제외되므로 렌더링 성능을 향상할 수 있다.
 
