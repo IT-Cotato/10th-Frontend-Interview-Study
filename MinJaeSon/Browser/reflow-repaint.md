@@ -3,9 +3,8 @@
 ## Reflow와 Repaint
 
 ![browser_rendering_chart](/MinJaeSon/Images/browser_rendering_chart.png)
-![alt text](image.png)
 
-브라우저의 렌더링 과정에서 렌더 트리가 생성된 후, **뷰포트를 기반으로 요소(노드)들의 위치, 크기 등을 계산하는 과정을 Layout 단계**, 이를 바탕으로 **화면에 요소들을 픽셀화하여 그리는 과정을 Paint 단계**라고 한다. <br/><small>([브라우저의 렌더링 과정에 대해 더 자세히 알고 싶다면 여기를 참고](https://github.com/IT-Cotato/10th-Frontend-Interview-Study/blob/develop/MinJaeSon/Browser/browser-rendering.md))</small>
+브라우저의 렌더링 과정에서 렌더 트리가 생성된 후, **뷰포트를 기반으로 요소(노드)들의 위치, 크기 등을 계산하는 과정을 Layout 단계**, 이를 바탕으로 **화면에 요소들을 픽셀화하여 그리는 과정을 Paint 단계**라고 한다. <br/><small>([브라우저의 렌더링 과정에 대해 더 자세히 알고 싶다면 여기를 참고](https://pingzeming.tistory.com/80))</small>
 
 Reflow는 Layout과, <br/>
 Repaint는 Paint와 연관되어 있는데, <br/>
@@ -203,6 +202,8 @@ DOM에 변경사항이 있을 때, 가상 DOM이 실제 DOM과 비교하여 변�
 ### Pixel Pipeline
 ![pixel pipeline](/MinJaeSon/Images/pixel_pipeline.png)
 브라우저가 렌더트리를 화면에 그릴 때, layout과 paint 외에도 **composite**이라는 단계가 존재한다.
+
+### Composite
 
 이 과정은 **스타일 지정 방식에 따라 화면에 나타날 요소들이 레이어로 분류되어 계층이 결정되고, 레이어들을 순서에 맞게 화면에 그리는 합성 과정**이다.
 
