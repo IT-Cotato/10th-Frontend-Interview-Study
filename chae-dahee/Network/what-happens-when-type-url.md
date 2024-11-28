@@ -51,7 +51,6 @@ DNS Domain Name System : 도메인 네임 목록과 도메인 네임과 연결�
 <img src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb00yt9%2FbtsKWIf9eZZ%2FLEiNI9AtfqzMea4Yj0r5Lk%2Fimg.png" originWidth:3000 originHeight:2250 style:alignCenter >
 
 <br/>
-3-way handshake 를 이용해 연결한다.
 
 3-way [handshake](https://developer.mozilla.org/ko/docs/Glossary/TCP_handshake) : TCP 프로토콜을 사용하여 클라이언트와 서버 간의 연결을 설정하는 과정
 
