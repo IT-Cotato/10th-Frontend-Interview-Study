@@ -14,8 +14,8 @@
 - [브라우저 저장소의 차이점 (Local Storage, Session Storage, Cookie)](https://github.com/IT-Cotato/10th-Frontend-Interview-Study/blob/develop/ahnsui/Browser/web-storage.md)
   
 ### 네트워크
-- HTTP란?
-- 주소창에 주소를 입력했을 때의 흐름
+- [HTTP란?](https://github.com/IT-Cotato/10th-Frontend-Interview-Study/blob/develop/chae-dahee/Network/http.md)
+- [주소창에 주소를 입력했을 때의 흐름](https://github.com/IT-Cotato/10th-Frontend-Interview-Study/blob/develop/yongaricode/Network/what-happens-when-type-url.md)
 - REST API
 
 ### JavaScript
